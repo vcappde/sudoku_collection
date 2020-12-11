@@ -1,11 +1,140 @@
 
+function hide() {
+    var status = document.getElementById(this.id + "_collapse").className;
 
-function displayGerman(){
+    if (status == "collapse show") {
+        document.getElementById(this.id + "_collapse").setAttribute("class", "collapse hide");
 
-  
-        document.getElementById("accordionExample").remove();
-      
-    
-      
+    }
+
+    if (status != "collapse show") {
+        document.getElementById(this.id + "_collapse").setAttribute("class", "collapse show");
+
+    }
+}
+
+function change_lan(clicked_id) {
+   var content = document.getElementById(clicked_id).innerHTML;
+
+   if (content == "German"){
+    mydata=mydata_de;
+    document.getElementById("btn_en").className = "btn btn-secondary";
+    document.getElementById("btn_de").className = "btn btn-secondary active";
+
+
+} 
+
+if (content == "English"){
+    mydata=mydata_en;
+    document.getElementById("btn_de").className = "btn btn-secondary";
+    document.getElementById("btn_en").className = "btn btn-secondary active";
 
 }
+
+
+var title_div = document.getElementById("title_div");
+var card_div = document.getElementsByClassName("card");
+
+length = card_div.length;
+
+for (var i = 0; i < length; i++){
+    num = card_div.length -1;
+    document.body.removeChild(card_div[num]);    
+}
+
+document.body.removeChild(title_div);
+
+init ();
+
+}
+
+function init () {
+
+    var active_lan = document.getElementsByClassName("btn btn-secondary active");
+
+
+    if (active_lan[0].textContent == "German"){
+        mydata=mydata_de;
+
+    } 
+    
+    if (active_lan[0].textContent == "English"){
+        mydata=mydata_en;
+    }
+
+   
+    var arr = mydata.chapter;
+
+    createTitle(mydata.titel, mydata.subtitle, mydata.subpar);
+
+    for (var i = 0; i < arr.length; i++){
+        var obj = arr[i];
+        var rising_column = i +1;
+        createOneCard(rising_column + ". " + obj.titel, obj.summary, rising_column);
+
+    }
+
+}
+
+function createTitle(title, subtitle, sub_par_text){
+
+    var div_title = document.createElement("div");
+    div_title.id = "title_div";
+    div_title.className = "jumbotron text-center";
+
+    var title_name = document.createElement("h1");
+    title_name.innerHTML = title;
+    div_title.appendChild(title_name);
+
+    var subtitle_name = document.createElement("p");
+    subtitle_name.innerHTML = subtitle;
+    div_title.appendChild(subtitle_name);
+
+    var sub_par= document.createElement("p");
+    sub_par.innerHTML = sub_par_text;
+    div_title.appendChild(sub_par);
+
+    document.body.appendChild(div_title);
+
+    
+
+}
+
+
+function displayGerman() {
+
+
+
+}
+
+function createOneCard(titel, content, id) {
+    var card_div = document.createElement("div");
+    card_div.className = "card";
+
+    var card_header = document.createElement("div");
+    card_header.className = "card-header";
+    card_div.appendChild(card_header);
+
+    var button_heading = document.createElement("button");
+    button_heading.className = "btn btn-link btn-block text-left";
+    button_heading.innerHTML = titel;
+    button_heading.setAttribute("id" , id)
+    button_heading.addEventListener("click", hide);
+    card_header.appendChild(button_heading);
+
+    var div_body = document.createElement("div");
+    div_body.id = id+ "_collapse";
+    div_body.className= "collapse show";
+
+    var card_body = document.createElement("div");
+    card_body.className = "card-body";
+    card_body.innerHTML = content;
+    div_body.appendChild(card_body);
+
+    card_div.appendChild(div_body);
+
+    document.body.appendChild(card_div);
+
+
+}
+
