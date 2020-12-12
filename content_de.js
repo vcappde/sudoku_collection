@@ -13,7 +13,7 @@ var mydata_de = {
         },
         {
             "titel": "Datenerfassung und -speicherung",
-            "summary": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst und auf Ihrem Gerät gespeichert.  Kontaktdaten (z.B. Namen, Adresse, nur bei Kontaktaufnahme werden diese erfasst)             E-Mail bei Pro-Abonement Nutzungsdaten (z.B. besuchte Webseiten)             Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse)"
+            "summary": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst und auf Ihrem Gerät gespeichert. <br>- Kontaktdaten (z.B. Namen, Adresse, nur bei Kontaktaufnahme werden diese erfasst)<br>- E-Mail bei Pro-Abonement Nutzungsdaten (z.B. besuchte Webseiten) <br>- Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse)"
             
         },
         {
@@ -23,7 +23,7 @@ var mydata_de = {
         },
         {
             "titel": "Nutzung von Diensten Dritter",
-            "summary": "Google Admob, Google Analytics und Firebase             Die kostenlose Version der App benutzt den Dienst Google Admob, Google Analytics und Firebase, um personalisierte Werbeanzeigen einzublenden und Nutzungsverhalten zu analysieren. Dafür werden Metakommunikationsdaten an Google übertragen und dort gespeichert. Diese Einstellungen kann über die Einstellungen des Endgeräts deaktiviert werden.         Der Google Admob Dienst, Google Analytics und Firebase wird von der Firma Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA) bereitgestellt. Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten (https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active).             Allgemeine Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google (Google Admob, Firebase, Analytics): https://www.google.de/intl/de/policies/privacy/"
+            "summary": "Die kostenlose Version der App benutzt den Dienst Google Admob, Google Analytics und Firebase, um personalisierte Werbeanzeigen einzublenden und Nutzungsverhalten zu analysieren. Dafür werden Metakommunikationsdaten an Google übertragen und dort gespeichert. Diese Einstellungen kann über die Einstellungen des Endgeräts deaktiviert werden.         Der Google Admob Dienst, Google Analytics und Firebase wird von der Firma Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA) bereitgestellt. Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten (<a href=https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active target=&quot;_blank&quot>Privacy Shield</a>). <br> Allgemeine Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google (Google Admob, Firebase, Analytics, <a href=https://www.google.de/intl/de/policies/privacy/ target=&quot;_blank&quot>Datenschutzerklärung Google</a>)"
         },
         {
             "titel": "Kontaktaufnahme",
@@ -40,13 +40,13 @@ var mydata_de = {
         },
 
         {
-            "titel": "Löschung von Daten",
+            "titel": "Änderung der Datenschutzerklärung", 
             "summary": "Im Zuge der Weiterentwicklung der App und der Implementierung neuer Funktionen können Änderungen dieser Datenschutzerklärung erforderlich werden. Daher empfehlen wir Ihnen, sich diese Datenschutzerklärung regelmäßig durchzulesen."         
         },
 
         {
             "titel": "Verantwortlicher",
-            "summary": "Kevin Behling;             Gerberstr.15 ,         71364 Winnenden Telefon: +49 15905819348             E-Mail: VCAPPDE@gmail.com "
+            "summary": "Kevin Behling<br>Gerberstr.15 <br> 71364 Winnenden <br>Telefon: +49 15905819348 <br>E-Mail: VCAPPDE@gmail.com "
             
         },
 

@@ -14,20 +14,24 @@ function hide() {
 }
 
 function change_lan(clicked_id) {
+
+    container = document.getElementById("layout_container");
+
+    
    var content = document.getElementById(clicked_id).innerHTML;
 
    if (content == "German"){
     mydata=mydata_de;
-    document.getElementById("btn_en").className = "btn btn-secondary";
-    document.getElementById("btn_de").className = "btn btn-secondary active";
+    document.getElementById("btn_en").className = "btn btn-light";
+    document.getElementById("btn_de").className = "btn btn-light active";
 
 
 } 
 
 if (content == "English"){
     mydata=mydata_en;
-    document.getElementById("btn_de").className = "btn btn-secondary";
-    document.getElementById("btn_en").className = "btn btn-secondary active";
+    document.getElementById("btn_de").className = "btn btn-light";
+    document.getElementById("btn_en").className = "btn btn-light active";
 
 }
 
@@ -39,10 +43,10 @@ length = card_div.length;
 
 for (var i = 0; i < length; i++){
     num = card_div.length -1;
-    document.body.removeChild(card_div[num]);    
+    container.removeChild(card_div[num]);    
 }
 
-document.body.removeChild(title_div);
+container.removeChild(title_div);
 
 init ();
 
@@ -50,7 +54,9 @@ init ();
 
 function init () {
 
-    var active_lan = document.getElementsByClassName("btn btn-secondary active");
+    createLayout();
+
+    var active_lan = document.getElementsByClassName("btn btn-light active");
 
 
     if (active_lan[0].textContent == "German"){
@@ -76,11 +82,27 @@ function init () {
 
 }
 
+function createLayout (){
+
+  
+
+    
+    var div_con = document.createElement("div");
+    div_con.id = "layout_container";
+    div_con.className = "container";
+    div_con.setAttribute("style", "width:100%; height:auto;")
+
+    document.body.appendChild(div_con);
+
+}
+
 function createTitle(title, subtitle, sub_par_text){
+
+    container = document.getElementById("layout_container");
 
     var div_title = document.createElement("div");
     div_title.id = "title_div";
-    div_title.className = "jumbotron text-center";
+    div_title.className = "jumbotron text-left";
 
     var title_name = document.createElement("h1");
     title_name.innerHTML = title;
@@ -94,7 +116,7 @@ function createTitle(title, subtitle, sub_par_text){
     sub_par.innerHTML = sub_par_text;
     div_title.appendChild(sub_par);
 
-    document.body.appendChild(div_title);
+    container.appendChild(div_title);
 
     
 
@@ -117,6 +139,8 @@ function createOneCard(titel, content, id) {
 
     var button_heading = document.createElement("button");
     button_heading.className = "btn btn-link btn-block text-left";
+    button_heading.setAttribute("style", "font-size:large");
+
     button_heading.innerHTML = titel;
     button_heading.setAttribute("id" , id)
     button_heading.addEventListener("click", hide);
@@ -133,7 +157,9 @@ function createOneCard(titel, content, id) {
 
     card_div.appendChild(div_body);
 
-    document.body.appendChild(card_div);
+    container = document.getElementById("layout_container");
+
+    container.appendChild(card_div);
 
 
 }
