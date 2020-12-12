@@ -59,12 +59,12 @@ function init () {
     var active_lan = document.getElementsByClassName("btn btn-light active");
 
 
-    if (active_lan[0].textContent == "German"){
+    if (active_lan[0].innerHTML == "German"){
         mydata=mydata_de;
 
     } 
     
-    if (active_lan[0].textContent == "English"){
+    if (active_lan[0].innerHTML == "English"){
         mydata=mydata_en;
     }
 
