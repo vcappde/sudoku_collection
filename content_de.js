@@ -1,4 +1,5 @@
 var mydata_de = {
+    "version": "1.0",
     "titel": "Datenschutzerklärung",
     "subtitle": "Deutsch ist die führende Fassung",
     "subpar": "Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten innerhalb der Sudoku-App auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. Verarbeitung oder Verantwortlicher wird auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO) verwiesen.",
@@ -46,7 +47,7 @@ var mydata_de = {
 
         {
             "titel": "Verantwortlicher",
-            "summary": "Kevin Behling<br>Gerberstr.15 <br> 71364 Winnenden <br>Telefon: +49 15905819348 <br>E-Mail: VCAPPDE@gmail.com "
+            "summary": "Kevin Behling<br>Gerberstr.15 <br> 71364 Winnenden <br>Telefon: +49 15905819348 <br> E-Mail: vcappde@gmail.com "
             
         },
 
