@@ -1,15 +1,15 @@
 var myagb_de = {
     "version": "1.0",
     "titel": "Nutzungsbedingungen",
-    "subtitle": "Sudoku Collection",
-    "description": "Sudoku Collection App Inhaber. Kevin Behling, Gerberstr. 15, 71364 Winnenden, vcappde@gmail.com,    (nachfolgend: „Anbieter“), stellt mit der App Sudoku Collection (nachfolgend: „App“) ein digitales Sudoku Spiel zur Verfügung. Für die Nutzung der App gelten die folgenden AGB",
+    "subtitle": "Der Sudoku Collection Inhaber stellt mit der App 'Sudoku Collection' (nachfolgend: „App“) ein digitales Sudoku Spiel zur Verfügung. Für die Nutzung der App gelten die folgenden AGB. Dabei ist die deutsche Version die führende Fassung.",
+    "description": "Inhaber (nachfolgend Anbieter genannt): Kevin Behling, Gerberstr. 15, 71364 Winnenden, vcappde@gmail.com",
     "chapter": [
         {
             "titel": "Allgemeine Bestimmungen",
             "paragraph": [
-                {"text": "Diese AGB gelten für die Sudoku Collection App als nach § 14 BGB angebotenen Dienst.  Mit dem Download der App und anschließender Zustimmung der Nutzungsbedingungen und Datenschutzerklärung, erklärt sich der Nutzer mit dieser AGB einverstanden" },
+                {"text": "Diese AGB gelten für die Sudoku Collection App.  Mit dem Download der App und anschließender Zustimmung der Nutzungsbedingungen und Datenschutzerklärung, erklärt sich der Nutzer mit dieser AGB einverstanden." },
                 {"text": "Diese AGB gelten ausschließlich."},
-                {"text": "  Der Anbieter behält sich Änderungen dieser AGB ausdrücklich vor. Änderungen dieser AGB werden wirksam, wenn der Nutzer die Änderungen nicht innerhalb von einem Monat nach Änderungsmitteilung in Textform (§ 126b BGB) widerspricht und der Anbieter den Nutzer in der Änderungsmitteilung auf das Widerspruchsrecht und die hierfür geltende Frist hingewiesen hat."},
+                {"text": "Der Anbieter behält sich Änderungen dieser AGB ausdrücklich vor. Änderungen dieser AGB werden wirksam, wenn der Nutzer die Änderungen nicht innerhalb von einem Monat nach Änderungsmitteilung in Textform (§ 126b BGB) widerspricht und der Anbieter den Nutzer in der Änderungsmitteilung auf das Widerspruchsrecht und die hierfür geltende Frist hingewiesen hat."},
                 {"text": "Der Gebrauch dieser App ist auf eigene Gefahr. Für mögliche durch diese Applikation verursachte oder mit ihr in Zusammenhang stehende Veränderungen am Endgerät oder für Kosten, die durch den Gebrauch dieser Applikation oder mit ihr in Zusammenhang stehender Vorgänge entstehen, haften der Nutzer."},
 
             ]
@@ -28,7 +28,7 @@ var myagb_de = {
         {
             "titel": "Freie Nutzung",
             "paragraph": [
-                {"text": " Die App kann jederzeit aus dem jeweiligen App Store kostenlos abgerufen und installiert werden. Der Funktionsumfang der kostenlosen Version unterscheidet sich zu dem des Premium Abonnements. Die freie Nutzung der App beinhaltet Werbung"},
+                {"text": " Die App kann jederzeit aus dem jeweiligen App Store kostenlos abgerufen und installiert werden. Der Funktionsumfang der kostenlosen Version unterscheidet sich zu dem des Premium Abonnements. Die freie Nutzung der App beinhaltet Werbung."},
             ]
         },
         {
@@ -70,14 +70,14 @@ var myagb_de = {
             "paragraph": [
                 {"text": "Soweit sich aus diesen AGB nichts anderes ergibt, haftet der Anbieter im Rahmen der Nutzung der App nach Maßgabe der nachfolgenden Bestimmungen."},
                 {"text": "Ansprüche des Nutzers auf Schadensersatz sind ausgeschlossen."},
-                {"text": "Bei der Verletzung wesentlicher Vertragspflichten haftet der Anbieter nur auf den vertragstypischen, vorhersehbaren Schaden, wenn dieser einfach fahrlässig verursacht wurd"},
+                {"text": "Bei der Verletzung wesentlicher Vertragspflichten haftet der Anbieter nur auf den vertragstypischen, vorhersehbaren Schaden, wenn dieser einfach fahrlässig verursacht wurde."},
                 {"text": "Die Einschränkungen gelten auch zugunsten der gesetzlichen Vertreter und Erfüllungsgehilfen des Anbieters, wenn Ansprüche direkt gegen diese geltend gemacht werden."},
             ]
         },
         {
             "titel": "Schlussbestimmungen",
             "paragraph": [
-                {"text": "Auf Verträge zwischen dem Anbieter und den Nutzer findet das Recht der Bundesrepublik Deutschland. Das Übereinkommen der Vereinten Nationen über Verträge über den internationalen Warenkauf findet keine Anwendung.. Die gesetzlichen Vorschriften zur Beschränkung der Rechtswahl und zur Anwendbarkeit zwingender Vorschriften, insbesondere des Staates, in dem der Nutzer als Verbraucher seinen gewöhnlichen Aufenthalt hat, bleiben unberührt."},
+                {"text": "Auf Verträge zwischen dem Anbieter und den Nutzer ist das Recht der Bundesrepublik Deutschland gültig. Das Übereinkommen der Vereinten Nationen über Verträge über den internationalen Warenkauf findet keine Anwendung."},
                 {"text": "Mündliche Nebenabreden wurden nicht getroffen. "},
             ]
         },

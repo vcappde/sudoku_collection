@@ -19,7 +19,7 @@ var mydata_de = {
         },
         {
             "titel": "Zweck der Verarbeitung",
-            "summary": "Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern. Einblendung von personalisierter Werbeanzeigen             Analyse des Nutzerverhaltens für Optimierungen"
+            "summary": "Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern. Einblendung von personalisierter Werbeanzeigen und Analyse des Nutzerverhaltens für Optimierungen."
             
         },
         {
