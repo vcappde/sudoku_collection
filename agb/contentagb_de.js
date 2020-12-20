@@ -7,7 +7,7 @@ var myagb_de = {
         {
             "titel": "Allgemeine Bestimmungen",
             "paragraph": [
-                {"text": "Diese AGB gelten für die Sudoku Collection App.  Mit dem Download der App und anschließender Zustimmung der Nutzungsbedingungen und Datenschutzerklärung, erklärt sich der Nutzer mit dieser AGB einverstanden." },
+                {"text": "Diese AGB gelten für die Sudoku Collection App.  Mit dem Download der App und anschließender Zustimmung der Nutzungsbedingungen und Datenschutzerklärung, erklärt sich der Nutzer mit dieser AGB einverstanden."  },
                 {"text": "Diese AGB gelten ausschließlich."},
                 {"text": "Der Anbieter behält sich Änderungen dieser AGB ausdrücklich vor. Änderungen dieser AGB werden wirksam, wenn der Nutzer die Änderungen nicht innerhalb von einem Monat nach Änderungsmitteilung in Textform (§ 126b BGB) widerspricht und der Anbieter den Nutzer in der Änderungsmitteilung auf das Widerspruchsrecht und die hierfür geltende Frist hingewiesen hat."},
                 {"text": "Der Gebrauch dieser App ist auf eigene Gefahr. Für mögliche durch diese Applikation verursachte oder mit ihr in Zusammenhang stehende Veränderungen am Endgerät oder für Kosten, die durch den Gebrauch dieser Applikation oder mit ihr in Zusammenhang stehender Vorgänge entstehen, haften der Nutzer."},

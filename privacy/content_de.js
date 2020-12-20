@@ -28,6 +28,7 @@ var mydata_de = {
         },
         {
             "titel": "Kontaktaufnahme",
+            
             "summary": "Bei der Kontaktaufnahme mit uns (z.B. E-Mail, Telefon) werden Ihre Angaben zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b) DSGVO verarbeitet. Diese Angaben können in einem Customer-Relationship-Management System (CRM System) oder mittels vergleichbarer Anfragenverwaltungssoftware gespeichert werden.Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten." 
         },
         {
