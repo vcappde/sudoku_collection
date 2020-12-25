@@ -75,18 +75,18 @@ function init() {
 
     }
 
-/*     var active_lan = document.getElementsByClassName("btn btn-light active");
-
-
-    if (active_lan[0].innerHTML == "German") {
-        mydata = myagb_de;
-
-    }
-
-    if (active_lan[0].innerHTML == "English") {
-        mydata = myagb_en;
-    }
- */
+    /*     var active_lan = document.getElementsByClassName("btn btn-light active");
+    
+    
+        if (active_lan[0].innerHTML == "German") {
+            mydata = myagb_de;
+    
+        }
+    
+        if (active_lan[0].innerHTML == "English") {
+            mydata = myagb_en;
+        }
+     */
 
     var arr = mydata.chapter;
 

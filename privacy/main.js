@@ -56,7 +56,25 @@ function init () {
 
     createLayout();
 
-    var active_lan = document.getElementsByClassName("btn btn-light active");
+    const queryString = window.location.search;
+    var str = queryString;
+    var lan = str.split("=");
+
+    if (lan[1] == "en") {
+        mydata = mydata_en;
+
+
+
+    }
+
+    if (lan[1] == "de") {
+        mydata = mydata_de;
+
+
+
+    }
+
+/*     var active_lan = document.getElementsByClassName("btn btn-light active");
 
 
     if (active_lan[0].innerHTML == "German"){
@@ -66,7 +84,7 @@ function init () {
     
     if (active_lan[0].innerHTML == "English"){
         mydata=mydata_en;
-    }
+    } */
 
    
     var arr = mydata.chapter;
