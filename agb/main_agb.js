@@ -20,7 +20,6 @@ function change_lan(clicked_id) {
 
 
     var content = document.getElementById(clicked_id).innerHTML;
-    mydata = myagb_de;
 
     if (content == "German") {
         mydata = myagb_de;
@@ -62,7 +61,7 @@ function init() {
     var str = queryString;
     var lan = str.split("=");
 
-    mydata=mydata_de;
+    mydata=myagb_en;
 
 
     if (lan[1] == "en") {

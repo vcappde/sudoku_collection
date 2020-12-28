@@ -2,7 +2,7 @@ var myagb_de = {
     "version": "1.0",
     "titel": "Nutzungsbedingungen",
     "subtitle": "Der Sudoku Collection Inhaber stellt mit der App 'Sudoku Collection' (nachfolgend: „App“) ein digitales Sudoku Spiel zur Verfügung. Für die Nutzung der App gelten die folgenden AGB. Dabei ist die deutsche Version die führende Fassung.",
-    "description": "Inhaber (nachfolgend Anbieter genannt): Kevin Behling, Gerberstr. 15, 71364 Winnenden, vcappde@gmail.com",
+    "description": " <b>Inhaber (nachfolgend Anbieter genannt):</b> <br> Kevin Behling <br> Gerberstr. 15 <br> 71364 Winnenden <br> Deutschland<br> Telefon: +49 15905819348 <br> vcappde@gmail.com",
     "chapter": [
         {
             "titel": "Allgemeine Bestimmungen",
