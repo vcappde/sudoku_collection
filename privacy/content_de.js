@@ -32,7 +32,7 @@ var mydata_de = {
             "summary": "Bei der Kontaktaufnahme mit uns (z.B. E-Mail, Telefon) werden Ihre Angaben zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b) DSGVO verarbeitet. Diese Angaben können in einem Customer-Relationship-Management System (CRM System) oder mittels vergleichbarer Anfragenverwaltungssoftware gespeichert werden.Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten." 
         },
         {
-            "titel": "WiderspruchsrechtIhre Rechte",
+            "titel": "Widerspruchsrecht / Ihre Rechte",
             "summary": "Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung erfolgen."
             
         },
@@ -48,7 +48,7 @@ var mydata_de = {
 
         {
             "titel": "Verantwortlicher",
-            "summary": "Kevin Behling<br>Gerberstr.15 <br> 71364 Winnenden <br>Telefon: +49 15905819348 <br> E-Mail: vcappde@gmail.com "
+            "summary": "Kevin Behling<br>Gerberstr.15 <br> 71364 Winnenden<br> Deutschland <br>Telefon: +49 15905819348 <br> E-Mail: vcappde@gmail.com "
             
         },
 

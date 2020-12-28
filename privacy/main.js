@@ -61,6 +61,9 @@ function init () {
     var str = queryString;
     var lan = str.split("=");
 
+    mydata=mydata_de;
+
+
     if (lan[1] == "en") {
         mydata = mydata_en;
 
