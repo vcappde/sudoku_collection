@@ -19,6 +19,7 @@ function change_lan(clicked_id) {
 
     
    var content = document.getElementById(clicked_id).innerHTML;
+   mydata=mydata_de;
 
    if (content == "German"){
     mydata=mydata_de;
