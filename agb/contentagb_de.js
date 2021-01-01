@@ -1,8 +1,7 @@
 var myagb_de = {
-    "version": "1.0",
     "titel": "Nutzungsbedingungen",
     "description": "Der Inhaber (nachfolgend Anbieter genannt) der App 'Sudoku Collection' (nachfolgend: „App“ genannt), stellt ein digitales Sudoku Spiel zur Verfügung. Für die Nutzung der App gelten die folgenden allgemeinen Geschäftsbedingungen (AGB). Dabei ist die deutsche Version die führende Fassung.",
-    "subtitle": "Version 1.0",
+    "subtitle": "Version 1",
     "chapter": [
         {
             "titel": "Allgemeine Bestimmungen",

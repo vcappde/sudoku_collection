@@ -29,7 +29,7 @@ var myimpressum_de = {
             "titel": "Streibeilegung",
             "paragraph": [
                 { "text": "Die Europäische Kommision stellt eine Plattform bereit: <a href=https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage target=&quot;_blank&quot>Link zu EU-Streitbeilegung</a>                 " },
-                { "text": "Wir weisen darauf hin, dass wir im Falle einer Streitigkeit mit einem Verbraucher nicht an einem Streitbeilegungsverfahren teilnehmen müssen. Wir sind dazu nicht verpflichtet." },
+                { "text": "Wir weisen darauf hin, dass wir im Falle einer Streitigkeit mit einem Verbraucher nicht an einem Streitbeilegungsverfahren teilnehmen. Wir sind dazu nicht verpflichtet." },
 
             ]
         },

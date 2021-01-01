@@ -1,8 +1,7 @@
 var myagb_en = {
-    "version": "1.0",
     "titel": "Terms of Use",
     "description": "The owner (hereinafter referred to as the provider) of the app 'Sudoku Collection' (hereinafter referred to as: 'App'), provides a digital Sudoku game. The following General Terms and Conditions (TOS) apply to the use of the App. The German version is the leading version.",
-    "subtitle": "Version 1.0",
+    "subtitle": "Version 1",
     "chapter": [
         {
             "titel": "General terms",
