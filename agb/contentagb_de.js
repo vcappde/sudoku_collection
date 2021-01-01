@@ -1,8 +1,8 @@
 var myagb_de = {
     "version": "1.0",
     "titel": "Nutzungsbedingungen",
-    "subtitle": "Der Inhaber (nachfolgend Anbieter genannt) der App 'Sudoku Collection' (nachfolgend: „App“ genannt), stellt ein digitales Sudoku Spiel zur Verfügung. Für die Nutzung der App gelten die folgenden allgemeinen Geschäftsbedingungen (AGB). Dabei ist die deutsche Version die führende Fassung.",
-    "description": "",
+    "description": "Der Inhaber (nachfolgend Anbieter genannt) der App 'Sudoku Collection' (nachfolgend: „App“ genannt), stellt ein digitales Sudoku Spiel zur Verfügung. Für die Nutzung der App gelten die folgenden allgemeinen Geschäftsbedingungen (AGB). Dabei ist die deutsche Version die führende Fassung.",
+    "subtitle": "Version 1.0",
     "chapter": [
         {
             "titel": "Allgemeine Bestimmungen",
@@ -26,7 +26,7 @@ var myagb_de = {
             ]
         },
         {
-            "titel": "Freie Nutzung",
+            "titel": "Kostenlose Nutzung",
             "paragraph": [
                 {"text": " Die App kann jederzeit aus dem jeweiligen App Store kostenlos abgerufen und installiert werden. Der Funktionsumfang der kostenlosen Version unterscheidet sich zu dem des Premium Abonnements. Die freie Nutzung der App beinhaltet Werbung."},
             ]
@@ -68,7 +68,7 @@ var myagb_de = {
         {
             "titel": "Haftung",
             "paragraph": [
-                {"text": "Ansprüche des Nutzers auf Schadensersatz sind ausgeschlossen."},
+                {"text": "Ansprüche des Nutzers auf Schadensersatz sind ausgeschlossen. Darin inbegriffen sind psychische und köperliche Verletzungen, die durch den Gebrauch diese App entstehen."},
                 {"text": "Der Anbieter haftet dem Nutzer gegenüber bei Vorsatz und grober Fahrlässigkeit nach Maßstab der gesetzlichen Bestimmungen."},
                    ]
         },

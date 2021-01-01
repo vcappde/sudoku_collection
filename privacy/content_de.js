@@ -1,8 +1,8 @@
 var mydata_de = {
     "version": "1.0",
     "titel": "Datenschutzerklärung",
-    "subtitle": "Deutsch ist die führende Fassung",
-    "subpar": "Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten innerhalb der Sudoku Collection App auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. Verarbeitung oder Verantwortlicher wird auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO) verwiesen.",
+    "subtitle": "Version 1.0",
+    "subpar": "Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten innerhalb der Sudoku Collection App auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. Verarbeitung oder Verantwortlicher wird auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO) verwiesen. Dabei ist die deutsche Version die führende Fassung.",
     "chapter": [
         {
             "titel": "Kategorien betroffener Personen",

@@ -53,6 +53,14 @@ function change_lan(clicked_id) {
 
 }
 
+
+function createTabTitle (content){
+    var div_title = document.createElement("title");
+    div_title.textContent = content;
+    document.body.appendChild(div_title);
+}
+
+
 function init() {
 
     createLayout();
@@ -66,6 +74,7 @@ function init() {
 
     if (lan[1] == "en") {
         mydata = myagb_en;
+        createTabTitle ("Sudoku Collection - Terms of Use");
 
 
 
@@ -73,6 +82,7 @@ function init() {
 
     if (lan[1] == "de") {
         mydata = myagb_de;
+        createTabTitle ("Sudoku Collection - AGB");
 
 
 

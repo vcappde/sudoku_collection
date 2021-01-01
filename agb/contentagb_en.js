@@ -1,27 +1,87 @@
 var myagb_en = {
-    "titel": "PRIVACY POLICY",
-    "subtitle": "EN_Deutsch ist die führende Fassung",
-    "description": "EN_Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten innerhalb der Sudoku-App auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. Verarbeitung oder Verantwortlicher wird auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO) verwiesen.",
+    "version": "1.0",
+    "titel": "Terms of Use",
+    "description": "The owner (hereinafter referred to as the provider) of the app 'Sudoku Collection' (hereinafter referred to as: 'App'), provides a digital Sudoku game. The following General Terms and Conditions (TOS) apply to the use of the App. The German version is the leading version.",
+    "subtitle": "Version 1.0",
     "chapter": [
         {
-            "titel": "Kategorien betroffener Personen",
+            "titel": "General terms",
             "paragraph": [
-                {"text": "p1" },
-                {"text": "p2"},
+                {"text": "These terms and conditions apply to the Sudoku Collection app. By downloading the app and subsequently agreeing to the Terms of Use and Privacy Policy, the user agrees to these Terms of Use."  },
+                {"text": "These Terms of Use apply exclusively."  },
+                {"text": "The provider expressly reserves the right to make changes to these TOS. Changes to these TOS shall become effective if the user does not object to the changes in text form (§ 126b BGB) within one month after notification of the change and the provider has informed the user in the notification of the change of the right to object and the applicable deadline."  },
+                {"text": "The use of this app is at your own risk. The user is liable for any changes to the end device caused by or related to this app or for any costs arising from the use of this app or any processes related to it."  },
             ]
         },
         {
-            "titel": "EN Personenbezogene Daten",
+            "titel": "Subject of performance and availability",
             "paragraph": [
-                {"text": "p1" },
-                {"text": "p2"},
-            ]        }, 
+                {"text": "The subject matter of the provider's performance is the provision of the Sudoku Collection app via the respective App Store."},
+                {"text": "Furthermore, the user has no claim to a certain range of functions and design of the app. The provider reserves the right to change the app and its functionalities in whole or in part. Additionaly the provider has the right to discontinue it permanently or temporarily at its own discretion (§ 315 BGB). The interests of the users are considered."},
+                {"text": "We do not guarantee that our services will be available at all times or at any particular time."},
+                {"text": "As of the date of these TOS, the Sudoku Collection app is published exclusively in the Google Play Store. Therefore, the use of this app is limited to devices with Android operating system. Which devices are compatible with this app can be found in the information in the play store."},
+            ]
+        },
+        {
+            "titel": "Free of charge utilization",
+            "paragraph": [
+                {"text": "The app can be downloaded and installed free of charge from the respective App Store at any time. The functional scope of the free version differs from that of the Premium subscription. The free use of the app includes advertising."},
+            ]
+        },
+        {
+            "titel": "Premium subscription",
+            "paragraph": [
+                {"text": "In order to use the premium functions offered by the provider, in particular for ad-free use, it is necessary to take out a premium subscription for which a fee is charged. The subject matter of the respective premium subscription results from the description presented in the respective App Store and in the App."},
+            ]
+        },
+        {
+            "titel": "Right of withdrawal and cancellation policy for the premium subscription",
+            "paragraph": [
+                {"text": "With regard to the possibility of a consumer cancellation, reference is made to the terms of use of the respective provider (<a href=https://support.google.com/googleplay/answer/2479637?hl=de target=&quot;_blank&quot>Reimbursement on Google Play</a>)."},
+              ]
+        },
+        {
+            "titel": "Costs, contract term, payment methods and invoicing",
+            "paragraph": [
+                {"text": "Users can choose between different options for a premium subscription. These variants differ in terms of contract duration and pricing. The premium functions are identical in all variants."},
+                {"text": "The billing, contract period and payment processing takes place via the respective app store."},
+            ]
+        },
+        {
+            "titel": "Cancellation and Termination of Membership and Premium Subscription",
+            "paragraph": [
+                {"text": "Free use of the Sudoku Collection App may be terminated at any time by uninstalling it from the applicable App Store."},
+                {"text": "A Premium Subscription may be terminated at any time by complying with the notice periods and other terms of use specified in the respective App Store (<a href=https://support.google.com/googleplay/answer/2479637?hl=de target=&quot;_blank&quot>Cancellation on Google Play</a>)."},
+                {"text": "The right to extraordinary termination of membership for good cause (§ 314 BGB) remains unaffected."},
 
-            {
-                "titel": "Owner",
-                "paragraph": [
-                    {"text": "Kevin Behling <br> Gerberstr.15 <br> 71364 Winnenden <br>Telefon: +49 15905819348 <br>vcappde@gmail.com"},
-                ]
-            },
+            ]
+        },
+        {
+            "titel": "User content and obligation",
+            "paragraph": [
+                {"text": "It is not permitted to provide, publish, license, sell or otherwise commercially exploit the App to third parties. The App may only be used for your own non-commercial or commercial purposes."},
+            ]
+        },
+        {
+            "titel": "Liability",
+            "paragraph": [
+                {"text": "Claims of the user for damages are excluded. This includes psychological and physical injuries caused by the use of this app."},
+                {"text": "The provider is liable to the user in case of intent and gross negligence according to the scale of the legal provisions."},
+                   ]
+        },
+        {
+            "titel": "Final provisions",
+            "paragraph": [
+                {"text": "Contracts between the provider and the user are governed by the laws of the Federal Republic of Germany. The United Nations Convention on Contracts for the International Sale of Goods shall not apply."},
+                {"text": "No oral ancillary agreements have been made."},
+            ]
+        },
+        {
+            "titel": "Owner",
+            "paragraph": [
+                {"text": "Kevin Behling <br> Gerberstr.15 <br> 71364 Winnenden <br>Phone: +49 15905819348 <br>vcappde@gmail.com"},
+            ]
+        },
+
     ]
 };

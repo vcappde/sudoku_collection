@@ -53,6 +53,12 @@ init ();
 
 }
 
+function createTabTitle (content){
+    var div_title = document.createElement("title");
+    div_title.textContent = content;
+    document.body.appendChild(div_title);
+}
+
 function init () {
 
     createLayout();
@@ -66,6 +72,8 @@ function init () {
 
     if (lan[1] == "en") {
         mydata = mydata_en;
+        createTabTitle ("Sudoku Collection - Privacy Policy");
+
 
 
 
@@ -73,6 +81,8 @@ function init () {
 
     if (lan[1] == "de") {
         mydata = mydata_de;
+        createTabTitle ("Sudoku Collection - Datenschutzerklärung");
+
 
 
 

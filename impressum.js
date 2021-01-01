@@ -8,10 +8,13 @@ function init (){
 
     if (lan[1] == "en") {
         mydata = myimpressum_en;
+        createTabTitle ("Sudoku Collection - Legal Notice");
     }
 
     if (lan[1] == "de") {
         mydata = myimpressum_de;
+        createTabTitle ("Sudoku Collection - Impressum");
+
 
     }
 
@@ -20,6 +23,12 @@ function init (){
     createLayout(mydata)
 
 
+}
+
+function createTabTitle (content){
+    var div_title = document.createElement("title");
+    div_title.textContent = content;
+    document.body.appendChild(div_title);
 }
 
 
@@ -85,9 +94,7 @@ function createOneItem (obj, rising_column, div){
 
 function createOnePar (line, object){
     var lineel = document.createElement("p");
-    lineel.textContent = line;
+    lineel.innerHTML = line;
     object.appendChild(lineel);
-
-    console.log("line: " + line);
 }
 
