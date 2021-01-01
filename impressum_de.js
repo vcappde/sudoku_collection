@@ -1,4 +1,5 @@
 var myimpressum_de = {
+    "version" : "1",
     "titel": "Impressum",
     "subtitle": "Sudoku Collection App",
     "chapter": [

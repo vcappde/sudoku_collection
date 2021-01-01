@@ -1,4 +1,5 @@
 var mydata_en = {
+    "version" : "1",
     "titel": "Privacy Policy",
     "subtitle": "Version 1",
     "subpar": "This privacy policy informs you about the type, scope and purpose of the processing of personal data within the Sudoku Collection app. With regard to the terms applied, such as processing or reference is made to the definitions in Art. 4 of the General Data Protection Regulation (GDPR). Geman is the leading version.",

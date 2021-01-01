@@ -1,4 +1,5 @@
 var myimpressum_en = {
+    "version" : "1",
     "titel": "Legal Notice",
     "subtitle": "Sudoku Collection App",
     "chapter": [
