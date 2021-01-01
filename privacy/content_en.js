@@ -21,7 +21,7 @@ var mydata_en = {
         },
         {
             "titel": "Use of Third Party Services",
-            "summary": "The free version of the app uses the Google Admob, Google Analytics and Firebase service to display personalized ads and analyze usage behavior. For this purpose, metacommunication data is transmitted to Google and stored there. These settings can be deactivated via the settings of the end device.         The Google Admob service, Google Analytics and Firebase are provided by Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Google is certified under the Privacy Shield agreement and thereby offers a guarantee of compliance with European data protection law (<a href=https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active target=&quot;_blank&quot>Privacy Shield</a>). <br> For general information on the handling of user data, please refer to Google's privacy policy (Google Admob, Firebase, Analytics, <a href=https://www.google.de/intl/de/policies/privacy/ target=&quot;_blank&quot>Privacy Policy Google</a>)"
+            "summary": "The app uses the Google Admob, Google Analytics and Firebase service to display personalized ads and analyze usage behavior. For this purpose, metacommunication data is transmitted to Google and stored there. These settings can be deactivated via the settings of the end device.         The Google Admob service, Google Analytics and Firebase are provided by Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Google is certified under the Privacy Shield agreement and thereby offers a guarantee of compliance with European data protection law (<a href=https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active target=&quot;_blank&quot>Privacy Shield</a>). <br> For general information on the handling of user data, please refer to Google's privacy policy (Google Admob, Firebase, Analytics, <a href=https://www.google.de/intl/de/policies/privacy/ target=&quot;_blank&quot>Privacy Policy Google</a>)"
         },
         {
             "titel": "Contacting",
@@ -29,7 +29,7 @@ var mydata_en = {
         },
         {
             "titel": "Your rights",
-            "summary": "You may object at any time to the future processing of data relating to you in accordance with Article 21 of the GDPR. In particular, the objection may be made against processing for direct marketing purposes."
+            "summary": "You may object in writing at any time to the future processing of data relating to you in accordance with Article 21 of the GDPR. In particular, the objection may be made against processing for direct marketing purposes."
         },
         {
             "titel": "Deletion of data",

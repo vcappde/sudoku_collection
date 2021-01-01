@@ -1,6 +1,6 @@
 var myimpressum_de= {
     "titel": "Impressum",
-    "subtitle": "Google Play Store App - Sudoku Collection",
+    "subtitle": "Sudoku Collection App",
     "chapter": [
         {
             "titel": "Inhaber",
@@ -9,7 +9,7 @@ var myimpressum_de= {
                 {"text": "Gerberstr. 15" },
                 {"text": "71364 Winnenden" },
                 {"text": "Deutschland" },
-                {"text": "Mobil: +49 15905819348" },
+                {"text": "Telefon: +49 15905819348" },
 
             ]
         },

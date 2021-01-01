@@ -184,7 +184,17 @@ function createOneCard(titel, content, id, length_par, chapter_num) {
         var rising_column = i + 1;
         var card_body = document.createElement("div");
         card_body.className = "card-body";
-        card_body.innerHTML = chapter_num + "." + rising_column + ". " + obj.text;
+        if (titel.includes("Owner")){
+            card_body.innerHTML = obj.text;
+
+        } else if (titel.includes("Inhaber")) {
+            card_body.innerHTML = obj.text;
+
+        } else {
+            card_body.innerHTML = chapter_num + "." + rising_column + ". " + obj.text;
+
+        }
+
         div_body.appendChild(card_body);
 
     }

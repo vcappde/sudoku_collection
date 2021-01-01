@@ -15,6 +15,13 @@ var myagb_en = {
             "paragraph": [
                 {"text": "p1" },
                 {"text": "p2"},
-            ]        }
+            ]        }, 
+
+            {
+                "titel": "Owner",
+                "paragraph": [
+                    {"text": "Kevin Behling <br> Gerberstr.15 <br> 71364 Winnenden <br>Telefon: +49 15905819348 <br>vcappde@gmail.com"},
+                ]
+            },
     ]
 };
