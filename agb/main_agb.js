@@ -69,50 +69,44 @@ function init() {
     var str = queryString;
     var lan = str.split("=");
 
-    mydata=myagb_en;
-
 
     if (lan[1] == "en") {
-        mydata = myagb_en;
+        createTabTitle ("Sudoku Collection - Terms of Use");
+    }
+   else if (lan[1] == "de") {
+        createTabTitle ("Sudoku Collection - AGB");
+    } else{
+        lan[1] = "de";
         createTabTitle ("Sudoku Collection - Terms of Use");
 
-
-
     }
 
-    if (lan[1] == "de") {
-        mydata = myagb_de;
-        createTabTitle ("Sudoku Collection - AGB");
+
+    fetch("content_" + lan[1] + ".json")
+    .then(response => {
+        return response.json();
+    })
+    .then(mydata => {
+        var arr = mydata.chapter;
 
 
-
-    }
-
-    /*     var active_lan = document.getElementsByClassName("btn btn-light active");
+        createTitle(mydata.titel, mydata.paragraph, "Version: " + mydata.version);
     
-    
-        if (active_lan[0].innerHTML == "German") {
-            mydata = myagb_de;
+        for (var i = 0; i < arr.length; i++) {
+            var obj = arr[i];
+            var rising_column = i + 1;
+            var length_par = obj.paragraph.length;
+            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column, length_par, rising_column);
     
         }
     
-        if (active_lan[0].innerHTML == "English") {
-            mydata = myagb_en;
         }
-     */
+    
 
-    var arr = mydata.chapter;
+    );
 
 
-    createTitle(mydata.titel, mydata.subtitle, mydata.description);
 
-    for (var i = 0; i < arr.length; i++) {
-        var obj = arr[i];
-        var rising_column = i + 1;
-        var length_par = obj.paragraph.length;
-        createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column, length_par, rising_column);
-
-    }
 
 }
 

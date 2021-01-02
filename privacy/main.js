@@ -67,50 +67,38 @@ function init () {
     var str = queryString;
     var lan = str.split("=");
 
-    mydata=mydata_de;
 
 
     if (lan[1] == "en") {
-        mydata = mydata_en;
         createTabTitle ("Sudoku Collection - Privacy Policy");
-
-
-
-
     }
-
-    if (lan[1] == "de") {
-        mydata = mydata_de;
+   else if (lan[1] == "de") {
         createTabTitle ("Sudoku Collection - Datenschutzerklärung");
-
-
-
-
+    } else{
+        lan[1] = "de";
+        createTabTitle ("Sudoku Collection - Datenschutzerklärung");
     }
 
-/*     var active_lan = document.getElementsByClassName("btn btn-light active");
 
-
-    if (active_lan[0].innerHTML == "German"){
-        mydata=mydata_de;
-
-    } 
+    fetch("content_" + lan[1] + ".json")
+    .then(response => {
+        return response.json();
+    })
+    .then(mydata => {
+        var arr = mydata.chapter;
+        createTitle(mydata.titel, mydata.paragraph, "Version: " + mydata.version);
     
-    if (active_lan[0].innerHTML == "English"){
-        mydata=mydata_en;
-    } */
-
-   
-    var arr = mydata.chapter;
-
-    createTitle(mydata.titel, mydata.subtitle, mydata.subpar);
-
-    for (var i = 0; i < arr.length; i++){
-        var obj = arr[i];
-        var rising_column = i +1;
-        createOneCard(rising_column + ". " + obj.titel, obj.summary, rising_column);
-
+        for (var i = 0; i < arr.length; i++){
+            var obj = arr[i];
+            var rising_column = i +1;
+            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column);
+    
+        }
     }
+
+    );
+
+    
 
 }
 
