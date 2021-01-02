@@ -96,7 +96,7 @@ function init() {
             var obj = arr[i];
             var rising_column = i + 1;
             var length_par = obj.paragraph.length;
-            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column, length_par, rising_column);
+            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column, length_par, rising_column, mydata);
     
         }
     
@@ -159,7 +159,7 @@ function displayGerman() {
 
 }
 
-function createOneCard(titel, content, id, length_par, chapter_num) {
+function createOneCard(titel, content, id, length_par, chapter_num, fulljson) {
     var card_div = document.createElement("div");
     card_div.className = "card";
 
@@ -188,14 +188,38 @@ function createOneCard(titel, content, id, length_par, chapter_num) {
         var rising_column = i + 1;
         var card_body = document.createElement("div");
         card_body.className = "card-body";
+        var replaced = obj.text.replaceAll("\n"," <br> ");
+        var regexp = /\$\(LINK_\d+\)/g;
+        if(replaced.match(regexp)){
+
+            var matches_array = replaced.match(regexp)
+    
+            var regexnumber = /\d+/g
+    
+            for (let index = 0; index < matches_array.length; index++) {
+                const element = matches_array[index];
+    
+                var match_number = element.match(regexnumber);
+    
+                var completelink = buildHyperLink(match_number, fulljson);
+    
+                replaced = replaced.replaceAll("$(LINK_" + match_number+ ")", completelink);
+                
+            }
+    
+        }
+
+
+
+
         if (titel.includes("Owner")){
-            card_body.innerHTML = obj.text;
+            card_body.innerHTML = replaced;
 
         } else if (titel.includes("Inhaber")) {
-            card_body.innerHTML = obj.text;
+            card_body.innerHTML = replaced;
 
         } else {
-            card_body.innerHTML = chapter_num + "." + rising_column + ". " + obj.text;
+            card_body.innerHTML = chapter_num + "." + rising_column + ". " + replaced;
 
         }
 
@@ -210,6 +234,22 @@ function createOneCard(titel, content, id, length_par, chapter_num) {
     container = document.getElementById("layout_container");
 
     container.appendChild(card_div);
+
+
+}
+
+
+function buildHyperLink(num, fulljson){
+
+   
+    var arr = fulljson.links;
+
+    var complete_link = "<a href=" + arr[num].href + " target=&quot;" + arr[num].target + " &quot;>" + arr[num].titel + "</a>";
+
+    
+    return complete_link;
+
+
 
 
 }

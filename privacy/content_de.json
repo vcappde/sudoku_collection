@@ -1,5 +1,5 @@
 {
-    "version" : "1",    
+    "version": "1",
     "titel": "Datenschutzerklärung",
     "paragraph": "Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten innerhalb der Sudoku Collection App auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. Verarbeitung oder Verantwortlicher wird auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO) verwiesen. Dabei ist die deutsche Version die führende Fassung.",
     "chapter": [
@@ -13,45 +13,55 @@
         },
         {
             "titel": "Datenerfassung und -speicherung",
-            "paragraph": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst todo speicherung todo zugungangsdten todo firebase. <br>- Kontaktdaten (z.B. Namen, Adresse, nur bei Kontaktaufnahme werden diese erfasst)<br>- E-Mail bei Premium Abonement Nutzungsdaten (z.B. besuchte Webseiten) <br>- Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse)"
-            
+            "paragraph": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst todo speicherung todo zugungangsdten todo firebase. \n- Kontaktdaten (z.B. Namen, Adresse, nur bei Kontaktaufnahme werden diese erfasst)\n- E-Mail bei Premium Abonement Nutzungsdaten (z.B. besuchte Webseiten) \n- Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse)"
         },
         {
             "titel": "Zweck der Verarbeitung",
             "paragraph": "Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern. Einblendung von personalisierter Werbeanzeigen und Analyse des Nutzerverhaltens und für Optimierungen der Funktionalitäten der App."
-            
         },
         {
             "titel": "Nutzung von Diensten Dritter",
-            "paragraph": "Die App verwendet die Dienste Google Admob, Google Analytics und Google Firebase, um personalisierte Werbeanzeigen einzublenden, Nutzungsverhalten zu analysieren und das Premium Abonnement zu verwalten.            <br>             Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten (<a href=https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active target=&quot;_blank&quot>Privacy Shield</a>).<br> Allgemeine Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google (<a href=https://www.google.de/intl/de/policies/privacy/ target=&quot;_blank&quot>Datenschutzerklärung Google</a>). Dafür werden Metakommunikationsdaten an Google übertragen und dort gespeichert. Diese Einstellungen können über die Einstellungen des Endgeräts deaktiviert werden (<a href=https://support.google.com/ads/answer/2662922?hl=de target=&quot;_blank&quot>personalisierte Werbung deaktivieren</a>).        "
+            "paragraph": "Die App verwendet die Dienste Google Admob, Google Analytics und Google Firebase, um personalisierte Werbeanzeigen einzublenden, Nutzungsverhalten zu analysieren und das Premium Abonnement zu verwalten.            \n             Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten ($(LINK_0)).\n Allgemeine Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google ($(LINK_1)). Dafür werden Metakommunikationsdaten an Google übertragen und dort gespeichert. Diese Einstellungen können über die Einstellungen des Endgeräts deaktiviert werden ($(LINK_2)).        "
         },
         {
             "titel": "Kontaktaufnahme",
-            
-            "paragraph": "Bei der Kontaktaufnahme mit uns (z.B. E-Mail) werden Ihre Angaben zur Bearbeitung der Kontaktanfrage und deren Abwicklung gespeichert. Diese Angaben können in einem Customer-Relationship-Management System (CRM System) oder mittels vergleichbarer Anfragenverwaltungssoftware gespeichert werden. Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten." 
+            "paragraph": "Bei der Kontaktaufnahme mit uns (z.B. E-Mail) werden Ihre Angaben zur Bearbeitung der Kontaktanfrage und deren Abwicklung gespeichert. Diese Angaben können in einem Customer-Relationship-Management System (CRM System) oder mittels vergleichbarer Anfragenverwaltungssoftware gespeichert werden. Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten."
         },
         {
             "titel": "Widerspruchsrecht / Ihre Rechte",
             "paragraph": "Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit schriftlich widersprechen."
-            
         },
         {
             "titel": "Löschung von Daten",
             "paragraph": "Die verarbeiteten Daten werden nach Maßgabe der Art. 17 und 18 DSGVO gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen. Daten, die von der App auf Ihrem Gerät gespeichert wurden, können Sie löschen, indem Sie die App vom Gerät löschen."
         },
-
         {
-            "titel": "Änderung der Datenschutzerklärung", 
-            "paragraph": "Im Zuge der Weiterentwicklung der App und der Implementierung neuer Funktionen können Änderungen dieser Datenschutzerklärung erforderlich werden. Daher empfehlen wir Ihnen, sich diese Datenschutzerklärung regelmäßig durchzulesen."         
+            "titel": "Änderung der Datenschutzerklärung",
+            "paragraph": "Im Zuge der Weiterentwicklung der App und der Implementierung neuer Funktionen können Änderungen dieser Datenschutzerklärung erforderlich werden. Daher empfehlen wir Ihnen, sich diese Datenschutzerklärung regelmäßig durchzulesen."
         },
-
         {
             "titel": "Verantwortlicher",
-            "paragraph": "Kevin Behling<br>Gerberstr.15 <br> 71364 Winnenden<br> Deutschland <br>Telefon: +49 15905819348 <br> E-Mail: vcappde@gmail.com "
-            
+            "paragraph": "Kevin Behling\nGerberstr.15\n71364 Winnenden"
         }
-
-
-
+    ],
+    "links": [
+        {
+            "id": "1",
+            "titel": "Privacy Shield von Google",
+            "href": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active",
+            "target": "_blank"
+        },
+        {
+            "id": "1",
+            "titel": "Datenschutzerklärung von Google",
+            "href": "https://www.google.de/intl/de/policies/privacy/",
+            "target": "_blank"
+        },
+        {
+            "id": "1",
+            "titel": "Personalisierte Werbung deaktivieren",
+            "href": "https://support.google.com/ads/answer/2662922?hl=de",
+            "target": "_blank"
+        }
     ]
 }

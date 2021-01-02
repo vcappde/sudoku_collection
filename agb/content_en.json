@@ -35,7 +35,7 @@
         {
             "titel": "Right of withdrawal and cancellation policy for the premium subscription",
             "paragraph": [
-                {"text": "With regard to the possibility of a consumer cancellation, reference is made to the terms of use of the respective provider (<a href=https://support.google.com/googleplay/answer/2479637?hl=de target=&quot;_blank&quot>Reimbursement on Google Play</a>)."}
+                {"text": "With regard to the possibility of a consumer cancellation, reference is made to the terms of use of the respective provider ($(LINK_0))."}
               ]
         },
         {
@@ -49,7 +49,7 @@
             "titel": "Cancellation and Termination of Membership and Premium Subscription",
             "paragraph": [
                 {"text": "Free use of the Sudoku Collection App may be terminated at any time by uninstalling it from the applicable App Store."},
-                {"text": "A Premium Subscription may be terminated at any time by complying with the notice periods and other terms of use specified in the respective App Store (<a href=https://support.google.com/googleplay/answer/2479637?hl=de target=&quot;_blank&quot>Cancellation on Google Play</a>)."},
+                {"text": "A Premium Subscription may be terminated at any time by complying with the notice periods and other terms of use specified in the respective App Store ($(LINK_0))."},
                 {"text": "The right to extraordinary termination of membership for good cause (§ 314 BGB) remains unaffected."}
             ]
         },
@@ -76,9 +76,24 @@
         {
             "titel": "Owner",
             "paragraph": [
-                {"text": "Kevin Behling <br> Gerberstr.15 <br> 71364 Winnenden <br>Phone: +49 15905819348 <br>vcappde@gmail.com"}
+                {"text": "Kevin Behling\nGerberstr.15\n71364 Winnenden"}
             ]
         }
 
+    ],
+
+    "links": [
+        {
+            "id": "1",
+            "titel": "Refunds on Google Play",
+            "href": "https://support.google.com/googleplay/answer/2479637?hl=en",
+            "target": "_blank"
+        },
+        {
+            "id": "1",
+            "titel": "Kündigung bei Google Play",
+            "href": "https://support.google.com/googleplay/answer/2479637?hl=en",
+            "target": "_blank"
+        }
     ]
 }

@@ -91,7 +91,7 @@ function init () {
         for (var i = 0; i < arr.length; i++){
             var obj = arr[i];
             var rising_column = i +1;
-            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column);
+            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column, mydata);
     
         }
     }
@@ -149,7 +149,7 @@ function displayGerman() {
 
 }
 
-function createOneCard(titel, content, id) {
+function createOneCard(titel, content, id, fullJson) {
     var card_div = document.createElement("div");
     card_div.className = "card";
 
@@ -172,7 +172,31 @@ function createOneCard(titel, content, id) {
 
     var card_body = document.createElement("div");
     card_body.className = "card-body";
-    card_body.innerHTML = content;
+
+    var replaced = content.replaceAll("\n"," <br> ");
+
+    var regexp = /\$\(LINK_\d+\)/g;
+
+    if(replaced.match(regexp)){
+
+        var matches_array = replaced.match(regexp)
+
+        var regexnumber = /\d+/g
+
+        for (let index = 0; index < matches_array.length; index++) {
+            const element = matches_array[index];
+
+            var match_number = element.match(regexnumber);
+
+            var completelink = buildHyperLink(match_number, fullJson);
+
+            replaced = replaced.replaceAll("$(LINK_" + match_number+ ")", completelink);
+            
+        }
+
+    }
+
+    card_body.innerHTML = replaced;
     div_body.appendChild(card_body);
 
     card_div.appendChild(div_body);
@@ -180,6 +204,22 @@ function createOneCard(titel, content, id) {
     container = document.getElementById("layout_container");
 
     container.appendChild(card_div);
+
+
+}
+
+
+function buildHyperLink(num, fulljson){
+
+   
+        var arr = fulljson.links;
+
+        var complete_link = "<a href=" + arr[num].href + " target=&quot;" + arr[num].target + " &quot;>" + arr[num].titel + "</a>";
+
+        
+        return complete_link;
+
+  
 
 
 }
