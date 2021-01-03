@@ -5,43 +5,83 @@
     "chapter": [
         {
             "titel": "Categories of affected persons",
-            "paragraph": "Users of the Sudoku Collection mobile application."
+            "paragraph": [
+                {
+                    "text": "Users of the Sudoku Collection mobile application."
+                }
+            ]
         },
         {
             "titel": "Personal data",
-            "paragraph": "Personal data is individual information about your personal or material circumstances that can be used to determine your identity (for example, name, address, telephone number, e-mail address)."
+            "paragraph": [
+                {
+                    "text": "Personal data is individual information about your personal or material circumstances that can be used to determine your identity (for example, name, address, telephone number, e-mail address)."
+                }
+            ]
         },
         {
             "titel": "Data acquisition and data storage",
-            "paragraph": "To ensure the operation of the app, the following data is collected and stored on your device. \n- Contact data (e.g. name, address, only collected when contact is established). \n- Email in case of pro-subscription usage data (e.g. web pages visited).\n- Meta/communication data (e.g. device information, IP address)"
+            "paragraph": [
+                {
+                    "text": "To ensure the operation of the app, the following data is collected and stored on your device. \n- Contact data (e.g. name, address, only collected when contact is established). \n- Email in case of pro-subscription usage data (e.g. web pages visited).\n- Meta/communication data (e.g. device information, IP address)"
+                }
+            ]
         },
         {
             "titel": "Purpose of processing",
-            "paragraph": "Responding to contact requests and communicating with users. Display of personalized advertisements and analysis of user behavior for optimization."
+            "paragraph": [
+                {
+                    "text": "Responding to contact requests and communicating with users. Display of personalized advertisements and analysis of user behavior for optimization."
+                }
+            ]
         },
         {
             "titel": "Use of Third Party Services",
-            "paragraph": "The app uses the Google Admob, Google Analytics and Firebase service to display personalized ads and analyze usage behavior. For this purpose, metacommunication data is transmitted to Google and stored there. These settings can be deactivated via the settings of the end device ($(LINK_2)).         The Google Admob service, Google Analytics and Firebase are provided by Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Google is certified under the Privacy Shield agreement and thereby offers a guarantee of compliance with European data protection law ($(LINK_0)). \n For general information on the handling of user data, please refer to Google's privacy policy (Google Admob, Firebase, Analytics, $(LINK_1))"
+            "paragraph": [
+                {
+                    "text": "The app uses the Google Admob, Google Analytics and Firebase service to display personalized ads and analyze usage behavior. For this purpose, metacommunication data is transmitted to Google and stored there. These settings can be deactivated via the settings of the end device ($(LINK_2)).         The Google Admob service, Google Analytics and Firebase are provided by Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Google is certified under the Privacy Shield agreement and thereby offers a guarantee of compliance with European data protection law ($(LINK_0)). \n For general information on the handling of user data, please refer to Google's privacy policy (Google Admob, Firebase, Analytics, $(LINK_1))"
+                }
+            ]
         },
         {
             "titel": "Contacting",
-            "paragraph": "   When contacting us (e.g. e-mail, telephone), your information will be processed for the purpose of handling the contact request and its processing pursuant to Art. 6 para. 1 lit. b) GDPR. This information may be stored in a customer relationship management system (CRM system) or by using comparable inquiry management software. We delete the inquiries if they are no longer necessary. We review the necessity every two years; Furthermore, the legal archiving obligations apply."
+            "paragraph": [
+                {
+                    "text": "   When contacting us (e.g. e-mail, telephone), your information will be processed for the purpose of handling the contact request and its processing pursuant to Art. 6 para. 1 lit. b) GDPR. This information may be stored in a customer relationship management system (CRM system) or by using comparable inquiry management software. We delete the inquiries if they are no longer necessary. We review the necessity every two years; Furthermore, the legal archiving obligations apply."
+                }
+            ]
         },
         {
             "titel": "Your rights",
-            "paragraph": "You may object in writing at any time to the future processing of data relating to you in accordance with Article 21 of the GDPR. In particular, the objection may be made against processing for direct marketing purposes."
+            "paragraph": [
+                {
+                    "text": "You may object in writing at any time to the future processing of data relating to you in accordance with Article 21 of the GDPR. In particular, the objection may be made against processing for direct marketing purposes."
+                }
+            ]
         },
         {
             "titel": "Deletion of data",
-            "paragraph": "The processed data will be deleted or restricted in its processing in accordance with Articles 17 and 18 GDPR.  Unless expressly stated within the scope of this privacy policy, the data stored by us will be deleted as soon as it is no longer required for its intended purpose and the deletion does not conflict with any statutory retention obligations. If the data is not deleted because it is required for other and legally permissible purposes, its processing will be restricted. I.e. the data is blocked and not processed for other purposes. This applies, for example, to data that must be retained for reasons of commercial or tax law.             According to legal requirements in Germany, data is retained in particular for 6 years in accordance with Section 257 (1) HGB (commercial books, inventories, opening balances, annual financial statements, commercial letters, accounting vouchers, etc.) and for 10 years in accordance with Section 147 (1) AO (books, records, management reports, accounting vouchers, commercial and business letters, documents relevant for taxation, etc.). You can delete data stored by the app on your device by deleting the app from the device."
+            "paragraph": [
+                {
+                    "text": "The processed data will be deleted or restricted in its processing in accordance with Articles 17 and 18 GDPR.  Unless expressly stated within the scope of this privacy policy, the data stored by us will be deleted as soon as it is no longer required for its intended purpose and the deletion does not conflict with any statutory retention obligations. If the data is not deleted because it is required for other and legally permissible purposes, its processing will be restricted. I.e. the data is blocked and not processed for other purposes. This applies, for example, to data that must be retained for reasons of commercial or tax law.             According to legal requirements in Germany, data is retained in particular for 6 years in accordance with Section 257 (1) HGB (commercial books, inventories, opening balances, annual financial statements, commercial letters, accounting vouchers, etc.) and for 10 years in accordance with Section 147 (1) AO (books, records, management reports, accounting vouchers, commercial and business letters, documents relevant for taxation, etc.). You can delete data stored by the app on your device by deleting the app from the device."
+                }
+            ]
         },
         {
             "titel": "Changes of privacy policy",
-            "paragraph": "As the App evolves and new features are implemented, changes to this Privacy Policy may become necessary. Therefore, we encourage you to review this Privacy Policy periodically."
+            "paragraph": [
+                {
+                    "text": "As the App evolves and new features are implemented, changes to this Privacy Policy may become necessary. Therefore, we encourage you to review this Privacy Policy periodically."
+                }
+            ]
         },
         {
             "titel": "Responsible",
-            "paragraph": "Kevin Behling\nGerberstr.15\n71364 Winnenden"
+            "paragraph": [
+                {
+                    "text": "Kevin Behling\nGerberstr.15\n71364 Winnenden"
+                }
+            ]
         }
     ],
     "links": [

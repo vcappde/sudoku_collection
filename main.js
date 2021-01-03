@@ -13,46 +13,45 @@ function hide() {
     }
 }
 
-
 function change_lan(clicked_id) {
 
     container = document.getElementById("layout_container");
 
+    
+   var content = document.getElementById(clicked_id).innerHTML;
+   mydata=mydata_de;
 
-    var content = document.getElementById(clicked_id).innerHTML;
-
-    if (content == "German") {
-        mydata = myagb_de;
-        document.getElementById("btn_en").className = "btn btn-light";
-        document.getElementById("btn_de").className = "btn btn-light active";
-
-
-    }
-
-    if (content == "English") {
-        mydata = myagb_en;
-        document.getElementById("btn_de").className = "btn btn-light";
-        document.getElementById("btn_en").className = "btn btn-light active";
-
-    }
+   if (content == "German"){
+    mydata=mydata_de;
+    document.getElementById("btn_en").className = "btn btn-light";
+    document.getElementById("btn_de").className = "btn btn-light active";
 
 
-    var title_div = document.getElementById("title_div");
-    var card_div = document.getElementsByClassName("card");
+} 
 
-    length = card_div.length;
-
-    for (var i = 0; i < length; i++) {
-        num = card_div.length - 1;
-        container.removeChild(card_div[num]);
-    }
-
-    container.removeChild(title_div);
-
-    init();
+if (content == "English"){
+    mydata=mydata_en;
+    document.getElementById("btn_de").className = "btn btn-light";
+    document.getElementById("btn_en").className = "btn btn-light active";
 
 }
 
+
+var title_div = document.getElementById("title_div");
+var card_div = document.getElementsByClassName("card");
+
+length = card_div.length;
+
+for (var i = 0; i < length; i++){
+    num = card_div.length -1;
+    container.removeChild(card_div[num]);    
+}
+
+container.removeChild(title_div);
+
+init ();
+
+}
 
 function createTabTitle (content){
     var div_title = document.createElement("title");
@@ -60,8 +59,7 @@ function createTabTitle (content){
     document.body.appendChild(div_title);
 }
 
-
-function init() {
+function init () {
 
     createLayout();
 
@@ -70,15 +68,15 @@ function init() {
     var lan = str.split("=");
 
 
+
     if (lan[1] == "en") {
-        createTabTitle ("Sudoku Collection - Terms of Use");
+        createTabTitle ("Sudoku Collection - Privacy Policy");
     }
    else if (lan[1] == "de") {
-        createTabTitle ("Sudoku Collection - AGB");
+        createTabTitle ("Sudoku Collection - Datenschutzerklärung");
     } else{
         lan[1] = "de";
-        createTabTitle ("Sudoku Collection - Terms of Use");
-
+        createTabTitle ("Sudoku Collection - Datenschutzerklärung");
     }
 
 
@@ -88,35 +86,27 @@ function init() {
     })
     .then(mydata => {
         var arr = mydata.chapter;
-
-
         createTitle(mydata.titel, mydata.paragraph, "Version: " + mydata.version);
     
-        for (var i = 0; i < arr.length; i++) {
+        for (var i = 0; i < arr.length; i++){
             var obj = arr[i];
-            var rising_column = i + 1;
-            var length_par = obj.paragraph.length;
-            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column, length_par, rising_column, mydata);
+            var rising_column = i +1;
+            createOneCard(rising_column + ". " + obj.titel, obj.paragraph, rising_column, mydata, obj.paragraph.length);
     
         }
-    
-        }
-    
+    }
 
     );
 
-
-
+    
 
 }
 
+function createLayout (){
 
+  
 
-function createLayout() {
-
-
-
-
+    
     var div_con = document.createElement("div");
     div_con.id = "layout_container";
     div_con.className = "container";
@@ -126,7 +116,7 @@ function createLayout() {
 
 }
 
-function createTitle(title, subtitle, sub_par_text) {
+function createTitle(title, subtitle, sub_par_text){
 
     container = document.getElementById("layout_container");
 
@@ -142,13 +132,13 @@ function createTitle(title, subtitle, sub_par_text) {
     subtitle_name.innerHTML = subtitle;
     div_title.appendChild(subtitle_name);
 
-    var sub_par = document.createElement("p");
+    var sub_par= document.createElement("p");
     sub_par.innerHTML = sub_par_text;
     div_title.appendChild(sub_par);
 
     container.appendChild(div_title);
 
-
+    
 
 }
 
@@ -159,7 +149,7 @@ function displayGerman() {
 
 }
 
-function createOneCard(titel, content, id, length_par, chapter_num, fulljson) {
+function createOneCard(titel, content, id, fulljson, length_par) {
     var card_div = document.createElement("div");
     card_div.className = "card";
 
@@ -219,7 +209,7 @@ function createOneCard(titel, content, id, length_par, chapter_num, fulljson) {
             card_body.innerHTML = replaced;
 
         } else {
-            card_body.innerHTML = chapter_num + "." + rising_column + ". " + replaced;
+            card_body.innerHTML = replaced;
 
         }
 
@@ -242,14 +232,14 @@ function createOneCard(titel, content, id, length_par, chapter_num, fulljson) {
 function buildHyperLink(num, fulljson){
 
    
-    var arr = fulljson.links;
+        var arr = fulljson.links;
 
-    var complete_link = "<a href=" + arr[num].href + " target=&quot;" + arr[num].target + " &quot;>" + arr[num].titel + "</a>";
+        var complete_link = "<a href=" + arr[num].href + " target=&quot;" + arr[num].target + " &quot;>" + arr[num].titel + "</a>";
 
-    
-    return complete_link;
+        
+        return complete_link;
 
-
+  
 
 
 }
