@@ -23,7 +23,7 @@
             "titel": "Datenerfassung und -speicherung",
             "paragraph": [
                 {
-                    "text": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst todo speicherung todo zugungangsdten todo firebase. \n- Kontaktdaten (z.B. Namen, Adresse, nur bei Kontaktaufnahme werden diese erfasst)\n- E-Mail bei Premium Abonement Nutzungsdaten (z.B. besuchte Webseiten) \n- Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse)"
+                    "text": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst\n- Kontaktdaten (z.B. Namen, Adresse, nur bei Kontaktaufnahme werden diese erfasst)\n- E-Mail bei Premium  Abonnement\n- Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse) \n Für die Verwaltung des Premium Abonements wird der Service von Google Firebase verwendet. Dazu werden Ihre Daten für die Validiierung verwendet."
                 }
             ]
         },
