@@ -23,8 +23,7 @@
             "titel": "Datenerfassung und -speicherung",
             "paragraph": [
                 {
-                    "text": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst\n- Kontaktdaten (z.B. Namen, Adresse, nur bei Kontaktaufnahme werden diese erfasst)\n- E-Mail bei Premium  Abonnement\n- Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse) \n Für die Verwaltung des Premium Abonements wird der Service von Google Firebase verwendet. Dazu werden Ihre Daten für die Validiierung verwendet."
-                }
+                    "text": "Um den Betrieb der App zu gewährleisten werden folgende Daten erfasst:\n- Bei Kontaktaufnahme werden Kontaktdaten erfasst (z.B. Namen, E-Mail)\n- Meta-/ Kommunikationsdaten (z.B. Geräte Informationen, IP Adresse) \n- Premium Abonement: Für die Verwaltung des Premium Abonements wird zur Validierung eine Schnittstelle zu Google Play verwendet (In-App Käufe). Weitere Details entnehmen sie folgendem Link: $(LINK_3)"               }
             ]
         },
         {
@@ -39,7 +38,7 @@
             "titel": "Nutzung von Diensten Dritter",
             "paragraph": [
                 {
-                    "text": "Die App verwendet die Dienste Google Admob, Google Analytics und Google Firebase, um personalisierte Werbeanzeigen einzublenden, Nutzungsverhalten zu analysieren und das Premium Abonnement zu verwalten.            \n             Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten ($(LINK_0)).\n Allgemeine Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google ($(LINK_1)). Dafür werden Metakommunikationsdaten an Google übertragen und dort gespeichert. Diese Einstellungen können über die Einstellungen des Endgeräts deaktiviert werden ($(LINK_2)).        "
+                    "text": "Die App verwendet die Dienste Google Admob, Google Analytics und Google Firebase, um personalisierte Werbeanzeigen einzublenden, Nutzungsverhalten zu analysieren, externe Inhalte der App zur Verfügung zu stellen (z.B. weitere Level Packs) und das Premium Abonnement zu verwalten.            \n             Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten ($(LINK_0)).\n Allgemeine Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google ($(LINK_1)). Dafür werden Metakommunikationsdaten an Google übertragen und dort gespeichert. Diese Einstellungen können über die Einstellungen des Endgeräts deaktiviert werden ($(LINK_2)).        "
                 }
             ]
         },
@@ -86,7 +85,7 @@
     ],
     "links": [
         {
-            "id": "1",
+            "id": "0",
             "titel": "Privacy Shield von Google",
             "href": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active",
             "target": "_blank"
@@ -98,9 +97,15 @@
             "target": "_blank"
         },
         {
-            "id": "1",
+            "id": "2",
             "titel": "Personalisierte Werbung deaktivieren",
             "href": "https://support.google.com/ads/answer/2662922?hl=de",
+            "target": "_blank"
+        },
+        {
+            "id": "3",
+            "titel": "Google Play In-App-Käufe",
+            "href": "https://support.google.com/googleplay/answer/1061913",
             "target": "_blank"
         }
     ]

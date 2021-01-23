@@ -23,7 +23,7 @@
             "titel": "Data acquisition and data storage",
             "paragraph": [
                 {
-                    "text": "To ensure the operation of the app, the following data is collected and stored on your device. \n- Contact data (e.g. name, address, only collected when contact is established). \n- Email in case of pro-subscription usage data (e.g. web pages visited).\n- Meta/communication data (e.g. device information, IP address)"
+                    "text": "To ensure the operation of the app, the following data is collected and stored on your device: \n- Contact data (e.g. name, address, only collected when contact is established). \n- Meta/communication data (e.g. device information, IP address) \n- Premium subscription: to manage subscription an interface to Google Play store for in-app-purchases is used. For more details please refer to following page: $(LINK_3)"
                 }
             ]
         },
@@ -39,7 +39,7 @@
             "titel": "Use of Third Party Services",
             "paragraph": [
                 {
-                    "text": "The app uses the Google Admob, Google Analytics and Firebase service to display personalized ads and analyze usage behavior. For this purpose, metacommunication data is transmitted to Google and stored there. These settings can be deactivated via the settings of the end device ($(LINK_2)).         The Google Admob service, Google Analytics and Firebase are provided by Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Google is certified under the Privacy Shield agreement and thereby offers a guarantee of compliance with European data protection law ($(LINK_0)). \n For general information on the handling of user data, please refer to Google's privacy policy (Google Admob, Firebase, Analytics, $(LINK_1))"
+                    "text": "The app uses the Google Admob, Google Analytics and Firebase service to display personalized ads, analyze usage behavior, manage premium subscription and manage related content of the app (e.g. additional level packs). For this purpose, metacommunication data is transmitted to Google and stored there. These settings can be deactivated via the settings of the end device ($(LINK_2)).         The Google Admob service, Google Analytics and Firebase are provided by Google (Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Google is certified under the Privacy Shield agreement and thereby offers a guarantee of compliance with European data protection law ($(LINK_0)). \n For general information on the handling of user data, please refer to Google's privacy policy (Google Admob, Firebase, Analytics, $(LINK_1))"
                 }
             ]
         },
@@ -86,7 +86,7 @@
     ],
     "links": [
         {
-            "id": "1",
+            "id": "0",
             "titel": "Privacy Shield-Google",
             "href": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active",
             "target": "_blank"
@@ -98,9 +98,15 @@
             "target": "_blank"
         },
         {
-            "id": "1",
+            "id": "2",
             "titel": "Deactivation of individual advertising",
-            "href": "https://support.google.com/ads/answer/2662922?hl=de",
+            "href": "https://support.google.com/ads/answer/2662922?hl=en",
+            "target": "_blank"
+        },
+        {
+            "id": "3",
+            "titel": "Google Play in-app purchases",
+            "href": "https://support.google.com/googleplay/answer/1061913?hl=en",
             "target": "_blank"
         }
     ]
